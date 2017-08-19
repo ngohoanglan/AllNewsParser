@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AllNews_Parser.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,6 +19,9 @@ namespace AllNews_Parser
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            Utils utils = new Utils();
+            utils.ImportDataFromXMLFile();
         }
+
     }
 }

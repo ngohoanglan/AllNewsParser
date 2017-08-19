@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+<!--
+<Contry code="IE">
+
+  <Site name="Irish Daily Star" url="http://thestar.ie/">
+    <Item name="News" url="http://thestar.ie/about-us/category/news/"
+          regex="//article" TitleRegex="h2[@class='post-title']" LinkRegex="a[@href]" ImageRegex="div[@class='post-thumbnail']/a/img" DescriptionRegex="div[@class='entry']/p" PubdateRegex="">
+    </Item>
+    <Item name="Showbiz" url="http://thestar.ie/about-us/category/showbiz/" 
+           regex="//article" TitleRegex="h2[@class='post-title']" LinkRegex="a[@href]" ImageRegex="div[@class='post-thumbnail']/a/img" DescriptionRegex="div[@class='entry']/p" PubdateRegex="">
+    </Item>
+    <Item name="Weird-Wacky" url="http://thestar.ie/about-us/category/weirdandwacky/"
+           regex="//article" TitleRegex="h2[@class='post-title']" LinkRegex="a[@href]" ImageRegex="div[@class='post-thumbnail']/a/img" DescriptionRegex="div[@class='entry']/p" PubdateRegex="">
+    </Item>
+    <Item name="Sport" url="http://thestar.ie/about-us/category/sport/" 
+           regex="//article" TitleRegex="h2[@class='post-title']" LinkRegex="a[@href]" ImageRegex="div[@class='post-thumbnail']/a/img" DescriptionRegex="div[@class='entry']/p" PubdateRegex="">
+    </Item>
+    <Item name="TECH" url="http://thestar.ie/about-us/category/tech/" 
+           regex="//article" TitleRegex="h2[@class='post-title']" LinkRegex="a[@href]" ImageRegex="div[@class='post-thumbnail']/a/img" DescriptionRegex="div[@class='entry']/p" PubdateRegex="">
+    </Item>
+    <Item name="Travel" url="http://thestar.ie/about-us/category/travel-2/" 
+           regex="//article" TitleRegex="h2[@class='post-title']" LinkRegex="a[@href]" ImageRegex="div[@class='post-thumbnail']/a/img" DescriptionRegex="div[@class='entry']/p" PubdateRegex="">
+    </Item>
+    <Item name="Motoring" url="http://thestar.ie/about-us/category/behind-the-wheel/" 
+           regex="//article" TitleRegex="h2[@class='post-title']" LinkRegex="a[@href]" ImageRegex="div[@class='post-thumbnail']/a/img" DescriptionRegex="div[@class='entry']/p" PubdateRegex="">
+    </Item>
+    <Item name="Lifestyle" url="http://thestar.ie/about-us/category/lifestyle/" 
+           regex="//article" TitleRegex="h2[@class='post-title']" LinkRegex="a[@href]" ImageRegex="div[@class='post-thumbnail']/a/img" DescriptionRegex="div[@class='entry']/p" PubdateRegex="">
+    </Item>
+  </Site>
+  
+  
+  <Site name="The Mayo News" url="http://www.mayonews.ie">
+    <Item name="News" url="http://www.mayonews.ie/news"
+          regex="//article" TitleRegex="header/h2[@class='article-title']" LinkRegex="header/h2[@class='article-title']/a[@href]" ImageRegex="" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="Sport" url="http://www.mayonews.ie/sports"
+         regex="//article" TitleRegex="header/h2[@class='article-title']" LinkRegex="header/h2[@class='article-title']/a[@href]" ImageRegex="" DescriptionRegex="" PubdateRegex="">
+    </Item>
+   
+    <Item name="features" url="http://www.mayonews.ie/features"
+           regex="//article" TitleRegex="header/h2[@class='article-title']" LinkRegex="header/h2[@class='article-title']/a[@href]" ImageRegex="" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="TECH" url="http://www.mayonews.ie/comment-opinion"
+           regex="//article" TitleRegex="header/h2[@class='article-title']" LinkRegex="header/h2[@class='article-title']/a[@href]" ImageRegex="" DescriptionRegex="" PubdateRegex="">
+    </Item>
+   
+  </Site>
+
+
+  <Site name="Dublin People" url="http://www.dublinpeople.com/">
+    <Item name="News" url="http://www.dublinpeople.com/news"
+          regex="//div[@class='news_box_item news_box_box']" TitleRegex="h4/a" LinkRegex="h4/a[@href]" ImageRegex="a/img[@src]" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="Entertainment" url="http://www.dublinpeople.com/entertainment"
+          regex="//div[@class='news_box_item news_box_box']" TitleRegex="h4/a" LinkRegex="h4/a[@href]" ImageRegex="a/img[@src]" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="Northside East" url="http://www.dublinpeople.com/news/northsideeast"
+              regex="//div[@class='news_box_item news_box_box']" TitleRegex="h4/a" LinkRegex="h4/a[@href]" ImageRegex="a/img[@src]" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="Southside" url="http://www.dublinpeople.com/news/southside"
+              regex="//div[@class='news_box_item news_box_box']" TitleRegex="h4/a" LinkRegex="h4/a[@href]" ImageRegex="a/img[@src]" DescriptionRegex="" PubdateRegex="">
+    </Item>
+     <Item name="Northside West" url="http://www.dublinpeople.com/news/northsidewest"
+              regex="//div[@class='news_box_item news_box_box']" TitleRegex="h4/a" LinkRegex="h4/a[@href]" ImageRegex="a/img[@src]" DescriptionRegex="" PubdateRegex="">
+    </Item>
+  </Site>
+
+  <Site name="The LADbible" url="http://www.theladbible.com/">
+    <Item name="Home" url="http://www.theladbible.com/"
+          regex="//article" TitleRegex="section/div/section/div/h3" LinkRegex="section/div/section/div/h3/a[@href]" ImageRegex="section/section/a/aside/div/noscript/img" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="Funny" url="http://www.theladbible.com/funny"
+            regex="//article" TitleRegex="section/div/section/div/h3" LinkRegex="section/div/section/div/h3/a[@href]" ImageRegex="section/section/a/aside/div/noscript/img" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="Entertainment" url="http://www.theladbible.com/entertainment"
+            regex="//article" TitleRegex="section/div/section/div/h3" LinkRegex="section/div/section/div/h3/a[@href]" ImageRegex="section/section/a/aside/div/noscript/img" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="News" url="http://www.theladbible.com/news"
+            regex="//article" TitleRegex="section/div/section/div/h3" LinkRegex="section/div/section/div/h3/a[@href]" ImageRegex="section/section/a/aside/div/noscript/img" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="Technology" url="http://www.theladbible.com/technology"
+           regex="//article" TitleRegex="section/div/section/div/h3" LinkRegex="section/div/section/div/h3/a[@href]" ImageRegex="section/section/a/aside/div/noscript/img" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="More" url="http://www.theladbible.com/more"
+           regex="//article" TitleRegex="section/div/section/div/h3" LinkRegex="section/div/section/div/h3/a[@href]" ImageRegex="section/section/a/aside/div/noscript/img" DescriptionRegex="" PubdateRegex="">
+    </Item>
+    <Item name="U OK M8?" url="http://www.theladbible.com/mental-health"
+          regex="//article" TitleRegex="section/div/section/div/h3" LinkRegex="section/div/section/div/h3/a[@href]" ImageRegex="section/section/a/aside/div/noscript/img" DescriptionRegex="" PubdateRegex="">
+    </Item>
+  </Site>
+
+</Contry>
+--><!--
+  <Contry code="NZ">
+
+    <Site name="News hub" url="http://www.newshub.co.nz/">
+      <Item name="Home" url="http://www.newshub.co.nz/home/new-zealand.html"
+            regex="//section[@class='Story']" TitleRegex="div[@class='Story-item']/a" LinkRegex="a[@href]" ImageRegex="div[@class='post-thumbnail']/a/img" DescriptionRegex="div[@class='entry']/p" PubdateRegex="">
+      </Item>
+    </Site>
+  </Contry>
+-->
+  <Contry code="AR">
+
+    <Site name="La Gaceta" url="http://www.lagaceta.com.ar/">
+      <Item name="Ahora" url="http://www.lagaceta.com.ar/ultimo-momento"
+            regex="//article" TitleRegex="h1[@class='titn h18 frob']/a" LinkRegex="h1[@class='titn h18 frob']/a[@href]" ImageRegex="div[@class='fl sli simg']/a/img" DescriptionRegex="div[@class='baj']" PubdateRegex="">
+      </Item>
+      <Item name="Política" url="http://www.lagaceta.com.ar/politica"
+            regex="//article" TitleRegex="h1[@class='titn h18 frob']/a" LinkRegex="h1[@class='titn h18 frob']/a[@href]" ImageRegex="div[@class='fl sli simg']/a/img" DescriptionRegex="div[@class='baj']" PubdateRegex="">
+      </Item>
+      <Item name="Economía" url="http://www.lagaceta.com.ar/economia"
+           regex="//article" TitleRegex="h1[@class='titn h18 frob']/a" LinkRegex="h1[@class='titn h18 frob']/a[@href]" ImageRegex="div[@class='fl sli simg']/a/img" DescriptionRegex="div[@class='baj']" PubdateRegex="">
+      </Item>
+      <Item name="Mundo" url="http://www.lagaceta.com.ar/mundo"
+         regex="//article" TitleRegex="h1[@class='titn h18 frob']/a" LinkRegex="h1[@class='titn h18 frob']/a[@href]" ImageRegex="div[@class='fl sli simg']/a/img" DescriptionRegex="div[@class='baj']" PubdateRegex="">
+      </Item>
+      <Item name="Policiales" url="http://www.lagaceta.com.ar/policiales"
+        regex="//article" TitleRegex="h1[@class='titn h18 frob']/a" LinkRegex="h1[@class='titn h18 frob']/a[@href]" ImageRegex="div[@class='fl sli simg']/a/img" DescriptionRegex="div[@class='baj']" PubdateRegex="">
+      </Item>
+      <Item name="Opinión" url="http://www.lagaceta.com.ar/opinion"
+       regex="//article" TitleRegex="h1[@class='titn h18 frob']/a" LinkRegex="h1[@class='titn h18 frob']/a[@href]" ImageRegex="div[@class='fl sli simg']/a/img" DescriptionRegex="div[@class='baj']" PubdateRegex="">
+      </Item>
+      <Item name="Deportes" url="http://lgdeportiva.lagaceta.com.ar/"
+    regex="//article" TitleRegex="h1[@class='titn h18 frob']/a" LinkRegex="h1[@class='titn h18 frob']/a[@href]" ImageRegex="div[@class='fl sli simg']/a/img" DescriptionRegex="div[@class='baj']" PubdateRegex="">
+      </Item>
+      <Item name="Sociedad" url="http://www.lagaceta.com.ar/sociedad"
+  regex="//article" TitleRegex="h1[@class='titn h18 frob']/a" LinkRegex="h1[@class='titn h18 frob']/a[@href]" ImageRegex="div[@class='fl sli simg']/a/img" DescriptionRegex="div[@class='baj']" PubdateRegex="">
+      </Item>
+      <Item name="Espectáculos" url="http://www.lagaceta.com.ar/espectaculos"
+  regex="//article" TitleRegex="h1[@class='titn h18 frob']/a" LinkRegex="h1[@class='titn h18 frob']/a[@href]" ImageRegex="div[@class='fl sli simg']/a/img" DescriptionRegex="div[@class='baj']" PubdateRegex="">
+      </Item>
+    </Site>
+  
+    
+    <Site name="News hub" url="http://www.newshub.co.nz/">
+      <Item name="Home" url="http://www.newshub.co.nz/home/new-zealand.html"
+            regex="//section[@class='Story']" TitleRegex="div[@class='Story-item']/a" LinkRegex="a[@href]" ImageRegex="div[@class='post-thumbnail']/a/img" DescriptionRegex="div[@class='entry']/p" PubdateRegex="">
+      </Item>
+    </Site>
+  </Contry>
+  
+</Root>
