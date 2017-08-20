@@ -4,15 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Xml;
-
+using EncryptDecrypt;
 namespace AllNews_Parser.Models
 {
     public class Utils
     {
+        private AllNewsContext db = new AllNewsContext();
         public void ImportDataFromXMLFile()
         {
             AllNewsContext context = new AllNewsContext();
-            // XmlTextReader reader = new XmlTextReader(Server.MapPath("~/App_data/Data.xml"));
+
             XmlDocument doc = new XmlDocument();
             doc.Load(System.Web.Hosting.HostingEnvironment.MapPath("~/App_data/Data.xml"));
             XmlNodeList nodes = doc.SelectNodes("//Site");
@@ -49,6 +50,32 @@ namespace AllNews_Parser.Models
                 }
 ;
             }
+        }
+        public ArticleData getArticleDataFromURL(string url,string _siteItemUrlEncrypted)
+        {
+            string urlDecypted = EncryptDecryptString.DecoderString(url);
+            string siteItemUrlDecrypted = EncryptDecryptString.DecoderString(_siteItemUrlEncrypted);
+            var article = db.ArticleDatas.Where(it => it.Url == url).FirstOrDefault();
+            //Kiểm tra article đã được có trong database hay chưa
+            if (article != null)
+            {
+                return article;
+            }
+            else
+                return ArticleParser(url, siteItemUrlDecrypted);
+
+        }
+        public ArticleData ArticleParser(string url,string siteItemUrlDecrypted)
+        {
+            ArticleData article = new ArticleData();
+            //Code parse o day
+
+
+
+            //Parse thành công->Save to DB
+
+
+            return article;
         }
     }
 }

@@ -181,3 +181,4 @@ D:\GitHub\AllNewsParser\AllNews_Parser\bin\System.Web.Http.Owin.xml
 D:\GitHub\AllNewsParser\AllNews_Parser\obj\Debug\AllNews_Parser.csprojResolveAssemblyReference.cache
 D:\GitHub\AllNewsParser\AllNews_Parser\obj\Debug\AllNews_Parser.dll
 D:\GitHub\AllNewsParser\AllNews_Parser\obj\Debug\AllNews_Parser.pdb
+D:\GitHub\AllNewsParser\AllNews_Parser\bin\EncryptDecrypt.dll
